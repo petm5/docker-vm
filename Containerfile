@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 RUN apk update
-RUN apk add qemu-system-x86_64
+RUN apk add socat qemu-system-x86_64
 
 RUN mkdir /storage
 
